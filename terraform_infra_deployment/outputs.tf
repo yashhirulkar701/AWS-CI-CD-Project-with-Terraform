@@ -1,6 +1,3 @@
-# output "address" {
-#   value = aws_elb.web.dns_name
-# }
 
 output "code_build_project" {
   value = aws_codebuild_project.containerAppBuild.arn

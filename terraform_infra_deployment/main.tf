@@ -5,13 +5,13 @@ terraform {
     bucket = "terraform-tfstate-bucket-1"
     key = "terraform.tfstate"
     region = "ap-south-1"
-    profile = "yash"
+    profile = ""
   }
 }
 
 provider "aws" {
   region = var.aws_region
-  profile = "yash"
+  profile = ""
 }
 
 
